@@ -26,6 +26,7 @@ const makeTodo = (todo)=>{
     li.classList.add("row");
     const todoText = document.createElement("p");
     const removeButton = document.createElement("button");
+    removeButton.className = "btn btn-danger";
     todoText.innerText = todo.text;
     removeButton.innerText = REMOVE_TEXT;
     li.id = todo.id;
