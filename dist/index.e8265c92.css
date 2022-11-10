@@ -1,0 +1,36 @@
+h1, h2 {
+  font-family: Lato;
+}
+
+.row {
+  flex-direction: row;
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+  display: flex;
+}
+
+.center-content {
+  justify-content: center;
+  align-items: center;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.row {
+  list-style-type: none;
+}
+
+/*# sourceMappingURL=index.e8265c92.css.map */
