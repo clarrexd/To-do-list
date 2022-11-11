@@ -81,7 +81,7 @@ initTodos();
       },
       {
         id: 5,
-        text: 'Feed the cat',
+        text: 'Say hi to Sebastian',
       },
     ];
   }
@@ -111,7 +111,11 @@ button.addEventListener('click', function(){
   makeTodo(newTodo);
   todos.push(newTodo);
   refreshIndices();
+  let inputClear = document.getElementById("todo-input");
+  inputClear.value="";
 });
+
+
 
 
 
